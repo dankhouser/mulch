@@ -34,6 +34,7 @@ p {
 .wrapper {
     background-color: #ffffff;
     width: 30%;
+    min-width: 343px;
     border: none;
     padding: 3%;
     margin: 0 auto;
