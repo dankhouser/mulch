@@ -1,0 +1,120 @@
+body {
+    background-color: #16181a;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+h1 {
+    font-family: "Helvetica";
+    color: #16181a;
+    text-align: center; 
+}
+
+h4 {
+    font-family: "Helvetica";
+    color: #16181a;
+    text-align: center; 
+    font-weight: 600;
+}
+
+p {
+    font-family: "Helvetica";
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.italics {
+    font-family: "Helvetica";
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: 30%;
+    border: none;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+.result {
+    font-family: "Helvetica";
+    background-color: #6699cc;
+    width: 0 auto;
+    max-width: 350px;
+    border: 2px solid;
+    padding: 25px;
+    margin: 0 auto; 
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.answer {
+    background-color: #ffffff;
+    width: 40px;
+    border: 1px solid;
+    padding: 0px 10px 0px 10px;
+    margin: 0 auto; 
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.button {
+    border: 2px solid #16181a;
+    border-radius: 2px;
+    position:relative;
+    max-width:290px;
+    height:60px;
+    background-color: #ffffff;
+    margin:0 auto;
+    text-align:center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: "Helvetica";
+}
+
+.button a {
+    position:relative;
+    padding:0px;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration: none;
+    color:#16181a;
+    font-size:0.9rem;
+    font-weight:600;
+    line-height:60px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button:hover a {
+    color:#ffffff;
+    z-index: 1000;
+}
+
+.easing {
+    position: absolute;
+    width:100%;
+    top:0; /*Change 'top' to 'bottom' for an upwards transition*/
+    height:0px;
+    margin:0 auto;
+    padding:0px;
+    background-color: #16181a;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    -ms-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.button:hover {
+    color:#ffffff;
+}
+
+.button:hover .easing {
+    height:60px;
+}
