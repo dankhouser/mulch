@@ -1,90 +1,35 @@
-<!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Mulchcalc : Rubber Mulch Calculator ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Mulchcalc</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/dankhouser/mulchCalc">View on GitHub</a>
-
-          <h1 id="project_title">Mulchcalc</h1>
-          <h2 id="project_tagline">Rubber Mulch Calculator </h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/dankhouser/mulchCalc/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/dankhouser/mulchCalc/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>
-</p>
-    
-    Rubber Mulch Calculator
-    
-    
-    
-
-
-  <div>
-  <h1>
-<a id="rubber-mulch-calculator" class="anchor" href="#rubber-mulch-calculator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rubber Mulch Calculator</h1>
-  <h4>
-<a id="enter-the-length-and-width-of-your-area-and-the-desired-depth-of-mulch-click-calculate-to-see-how-many-cubic-yards-you-will-need" class="anchor" href="#enter-the-length-and-width-of-your-area-and-the-desired-depth-of-mulch-click-calculate-to-see-how-many-cubic-yards-you-will-need" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enter the length and width of your area, and the desired depth of mulch. Click calculate to see how many cubic yards you will need.</h4>
-  <h4>
-<a id="length-in-feet-" class="anchor" href="#length-in-feet-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Length (in feet): </h4> 
-  <h4>
-<a id="width-in-feet-" class="anchor" href="#width-in-feet-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Width (in feet): </h4>
-  <h4>
-<a id="depth-in-inches-" class="anchor" href="#depth-in-inches-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Depth (in inches): </h4>
-  <p><i>Standard depth is 3 inches.</i></p>
-  <div>
-    <a href="#">Calculate</a>
-       <div></div>
+<head>
+    <meta charset="utf-8">
+    <title>Rubber Mulch Calculator</title>
+    <meta name="description" content="A calculator to figure out how many cubic yards of rubber mulch needed.">
+    <link rel="stylesheet" href="main.css">
+    <script src="mulchCalc.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+  <h1>Rubber Mulch Calculator</h1>
+  <h4>Enter the length and width of your area, and the desired depth of mulch. Click calculate to see how many cubic yards you will need.</h4>
+  <h4>Length (in feet): <input type="text" id= "length" size= "5"></h4> 
+  <h4>Width (in feet): <input type= "text" id= "width" size= "5"></h4>
+  <h4>Depth (in inches): <input type= "text" id= "depth" size= "5"></h4>
+  <p class="italics"><i>Standard depth is 3 inches.</i></p>
+  <div class="button" onclick="calculateArea();">
+    <a class="" href="#" style="display:block;">Calculate</a>
+       <div class="easing"></div>
   </div>
   <br>
-  <div>
-  <h4>
-<a id="cubic-yards-of-mulch-needed" class="anchor" href="#cubic-yards-of-mulch-needed" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cubic Yards of Mulch Needed:</h4>
-    <div>
-      <p id="total"></p>
+  <div class="result">
+  <h4>Cubic Yards of Mulch Needed:</h4>
+    <div class = "answer">
+      <p id= "total"></p>
     </div>
   </div>
-  <h4>
-<a id="click-get-a-quote-and-let-us-know-what-color-of-mulch-and-how-many-cubic-yards-and-we-will-reply-quickly-with-your-quote" class="anchor" href="#click-get-a-quote-and-let-us-know-what-color-of-mulch-and-how-many-cubic-yards-and-we-will-reply-quickly-with-your-quote" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Click Get a Quote and let us know what color of mulch and how many cubic yards, and we will reply quickly with your quote!</h4>
-  <div>
-    <a href="mailto:jason@nwarubbermulch.com?subject=Rubber%20Mulch%20Quote">Get a Quote</a>
-       <div></div>
+  <h4>Click Get a Quote and let us know what color of mulch and how many cubic yards, and we will reply quickly with your quote!</h4>
+  <div class="button">
+    <a class="" href="mailto:jason@nwarubbermulch.com?subject=Rubber%20Mulch%20Quote" style="display:block;">Get a Quote</a>
+       <div class="easing"></div>
   </div>
     </div>
-  
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Mulchcalc maintained by <a href="https://github.com/dankhouser">dankhouser</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
   </body>
 </html>
