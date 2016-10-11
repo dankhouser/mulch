@@ -35,6 +35,7 @@ p {
     background-color: #ffffff;
     width: 30%;
     min-width: 343px;
+    max-width: 609px;
     border: none;
     padding: 3%;
     margin: 0 auto;
