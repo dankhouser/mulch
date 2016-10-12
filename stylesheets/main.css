@@ -119,14 +119,14 @@ p {
 .button:hover .easing {
     height:60px;
 }
-/*
+/* Samsung Galaxy S7
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: portrait) {
     .wrapper {
-    background-color: skyblue;
+    background-color: #16181a;
     width: 30%;
     max-width: 340px;
     border: none;
