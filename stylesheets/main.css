@@ -142,7 +142,7 @@ and (max-device-width : 568px) {
     .wrapper {
     max-width: 540px;
     border: none;
-    padding: 3%;
+    padding: 5%;
     margin: 0 auto;
     }
 }    
