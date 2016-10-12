@@ -34,8 +34,8 @@ p {
 .wrapper {
     background-color: #ffffff;
     width: 30%;
-    min-width: 343px;
-    max-width: 609px;
+    max-width: 700px;
+    min-width: 285px;
     border: none;
     padding: 3%;
     margin: 0 auto;
@@ -44,7 +44,6 @@ p {
 .result {
     font-family: "Helvetica";
     background-color: #6699cc;
-    width: 0 auto;
     max-width: 350px;
     border: 2px solid;
     padding: 25px;
@@ -101,7 +100,7 @@ p {
 .easing {
     position: absolute;
     width:100%;
-    top:0; /*Change 'top' to 'bottom' for an upwards transition*/
+    top:0; 
     height:0px;
     margin:0 auto;
     padding:0px;
