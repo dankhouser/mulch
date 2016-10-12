@@ -119,11 +119,11 @@ p {
 .button:hover .easing {
     height:60px;
 }
-
+/*
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
+  and (-webkit-device-pixel-ratio: 4) 
   and (orientation: portrait) {
     .wrapper {
     background-color: skyblue;
@@ -133,4 +133,4 @@ p {
     padding: 3%;
     margin: 0 auto;
     }
-}
+}*/
