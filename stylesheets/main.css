@@ -120,7 +120,7 @@ p {
     height:60px;
 }
 /* Samsung Galaxy S7*/
-
+/*
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
@@ -135,6 +135,7 @@ p {
     }
 }
 /* Apple iPhone 5 */
+/*
 @media screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px)
@@ -146,5 +147,5 @@ and (orientation: portrait){
     padding: 5%;
     margin: 0 auto;
     }
-}    
+}  */
     
