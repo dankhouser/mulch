@@ -124,10 +124,9 @@ p {
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
+  and (-webkit-device-pixel-ratio: 4) {
     .wrapper {
-    background-color: blue;
+    background-color: #ffffff;
     width: 30%;
     max-width: 340px;
     border: none;
