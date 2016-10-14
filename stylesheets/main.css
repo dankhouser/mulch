@@ -140,6 +140,7 @@ p {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
     .wrapper {
+    background-color: blue;
     max-width: 520px;
     border: none;
     padding: 5%;
