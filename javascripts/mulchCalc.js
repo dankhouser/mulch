@@ -2,7 +2,7 @@ function calculateArea() {
   var length = document.getElementById("length").value;
   var width = document.getElementById("width").value;
   var depth = document.getElementById("depth").value;
-  var area = (length * width * (depth/12))/27;
-  var area2 = area.toFixed(2);
-  document.getElementById("total").innerHTML = area2
+  var tons = ((length * width * (depth/12))/27)*2.36;
+  var tons2 = tons.toFixed(2);
+  document.getElementById("total").innerHTML = tons2
 }
