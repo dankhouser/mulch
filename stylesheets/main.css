@@ -5,20 +5,20 @@ body {
 }
 
 h1 {
-    font-family: 'Tangerine';
+    font-family: 'Helvetica';
     color: #16181a;
     text-align: center; 
 }
 
 h4 {
-    font-family: 'Tangerine';
+    font-family: 'Helvetica';
     color: #16181a;
     text-align: center; 
     font-weight: 600;
 }
 
 p {
-    font-family: 'Tangerine';
+    font-family: 'Helvetica';
     font-size: 15px;
     text-align: center;
     font-weight: 600;
